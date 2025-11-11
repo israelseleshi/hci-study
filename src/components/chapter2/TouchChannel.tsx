@@ -8,8 +8,8 @@ export function TouchChannel() {
           <div className="inline-block bg-green-500/20 border border-green-500/30 rounded-full px-4 py-2 mb-4">
             <span className="text-green-700 text-sm">Input Channel</span>
           </div>
-          <h2 className="text-gray-900 mb-4">Touch (Haptic Perception)</h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Touch (Haptic Perception)</h2>
+          <p className="text-gray-600 text-xl leading-relaxed max-w-3xl mx-auto">
             The sense of touch provides vital feedback about our physical environment. Unlike sight and hearing, 
             which are localized in specific organs, touch is distributed across the entire body via receptors in the skin.
           </p>
@@ -22,8 +22,8 @@ export function TouchChannel() {
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Hand className="w-8 h-8 text-green-600" />
               </div>
-              <h3 className="text-green-900 text-center mb-3">Feedback</h3>
-              <p className="text-gray-700 text-sm text-center">
+              <h3 className="text-xl font-bold text-green-900 text-center mb-3">Feedback</h3>
+              <p className="text-gray-700 text-lg text-center">
                 Touch is fundamental for providing feedback during physical interaction
               </p>
             </div>
@@ -34,8 +34,8 @@ export function TouchChannel() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
                 </svg>
               </div>
-              <h3 className="text-blue-900 text-center mb-3">Kinaesthetics</h3>
-              <p className="text-gray-700 text-sm text-center">
+              <h3 className="text-xl font-bold text-blue-900 text-center mb-3">Kinaesthetics</h3>
+              <p className="text-gray-700 text-lg text-center">
                 Awareness of our body's position and movement in space
               </p>
             </div>
@@ -46,8 +46,8 @@ export function TouchChannel() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-purple-900 text-center mb-3">Haptic Technology</h3>
-              <p className="text-gray-700 text-sm text-center">
+              <h3 className="text-xl font-bold text-purple-900 text-center mb-3">Haptic Technology</h3>
+              <p className="text-gray-700 text-lg text-center">
                 Modern devices incorporating haptic feedback to simulate touch
               </p>
             </div>
@@ -57,7 +57,7 @@ export function TouchChannel() {
           <div className="space-y-8">
             {/* Feedback Example */}
             <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12 border-2 border-green-200">
-              <h3 className="text-green-900 mb-6">Feedback: Physical Keyboard</h3>
+              <h3 className="text-2xl font-bold text-green-900 mb-6">Feedback: Physical Keyboard</h3>
               
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
@@ -111,7 +111,7 @@ export function TouchChannel() {
 
             {/* Kinaesthetics Example */}
             <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-8 md:p-12 border-2 border-blue-200">
-              <h3 className="text-blue-900 mb-6">Kinaesthetics: Car Gear Stick</h3>
+              <h3 className="text-2xl font-bold text-blue-900 mb-6">Kinaesthetics: Car Gear Stick</h3>
               
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="bg-white rounded-xl p-6 shadow-lg">
@@ -155,7 +155,7 @@ export function TouchChannel() {
 
             {/* Haptic Technology Example */}
             <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-2xl p-8 md:p-12 border-2 border-purple-200">
-              <h3 className="text-purple-900 mb-6">Haptic Technology: Smartwatch Notifications</h3>
+              <h3 className="text-2xl font-bold text-purple-900 mb-6">Haptic Technology: Smartwatch Notifications</h3>
               
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>

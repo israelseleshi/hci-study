@@ -3,13 +3,14 @@ export function IndividualDifferences() {
     <section id="individual" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 to-purple-950 text-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-white mb-4">Individual Differences</h2>
-          <p className="text-purple-200 max-w-3xl mx-auto">
+          <h1 className="text-6xl text-white mb-4">Individual Differences</h1>
+          <p className="text-3xl text-purple-200 max-w-3xl mx-auto">
             While we can talk about the "average" user, there is no such thing. People vary enormously in their 
             abilities, experiences, and needs. Good design must account for these individual differences.
           </p>
         </div>
 
+        {/* Rest of the code remains the same */}
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Types of Differences */}
           <div className="grid md:grid-cols-3 gap-8">

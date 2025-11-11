@@ -6,13 +6,13 @@ export function HeroChapter2() {
           <div className="inline-block bg-purple-500/20 border border-purple-500/30 rounded-full px-4 py-2 mb-4">
             <span className="text-purple-300 text-sm">Chapter 2</span>
           </div>
-          <h1 className="text-white mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             The Human Interface
           </h1>
-          <p className="text-purple-200 max-w-3xl mx-auto mb-4">
+          <p className="text-purple-200 text-2xl leading-relaxed max-w-3xl mx-auto mb-4">
             Understanding Input, Memory, and Action
           </p>
-          <p className="text-purple-300 text-sm max-w-2xl mx-auto">
+          <p className="text-purple-300 text-lg max-w-2xl mx-auto">
             To design effective and intuitive technology, we must first understand the capabilities 
             and limitations of the person who will be using it.
           </p>

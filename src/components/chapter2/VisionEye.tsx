@@ -6,8 +6,8 @@ export function VisionEye() {
           <div className="inline-block bg-cyan-500/20 border border-cyan-500/30 rounded-full px-4 py-2 mb-4">
             <span className="text-cyan-300 text-sm">Primary Input Channel</span>
           </div>
-          <h2 className="text-white mb-4">Vision: The Eye</h2>
-          <p className="text-purple-200 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Vision: The Eye</h2>
+          <p className="text-purple-200 text-xl leading-relaxed max-w-3xl mx-auto">
             Human vision is the most dominant sense and the primary channel for receiving information from computers. 
             Understanding how vision works is crucial for designing effective visual interfaces.
           </p>
@@ -94,23 +94,23 @@ export function VisionEye() {
                   <rect x="10" y="4" width="4" height="16" rx="2" />
                 </svg>
               </div>
-              <h3 className="text-green-400">Rods</h3>
+              <h3 className="text-2xl font-bold text-green-400">Rods</h3>
             </div>
             
             <ul className="space-y-3 mb-6">
-              <li className="flex items-start gap-2 text-green-100 text-sm">
+              <li className="flex items-start gap-2 text-green-100 text-lg">
                 <span className="text-green-400 mt-1">•</span>
                 <span>Highly sensitive to low levels of light</span>
               </li>
-              <li className="flex items-start gap-2 text-green-100 text-sm">
+              <li className="flex items-start gap-2 text-green-100 text-lg">
                 <span className="text-green-400 mt-1">•</span>
                 <span>Responsible for peripheral vision and seeing in the dark</span>
               </li>
-              <li className="flex items-start gap-2 text-green-100 text-sm">
+              <li className="flex items-start gap-2 text-green-100 text-lg">
                 <span className="text-green-400 mt-1">•</span>
                 <span>Do not detect color or fine detail</span>
               </li>
-              <li className="flex items-start gap-2 text-green-100 text-sm">
+              <li className="flex items-start gap-2 text-green-100 text-lg">
                 <span className="text-green-400 mt-1">•</span>
                 <span>Sensitive to motion in peripheral vision</span>
               </li>
@@ -118,7 +118,7 @@ export function VisionEye() {
 
             <div className="bg-green-950/50 rounded-lg p-4 border border-green-500/20">
               <p className="text-green-300 text-xs mb-2">Real-Life Example:</p>
-              <p className="text-green-100 text-sm">
+              <p className="text-green-100 text-lg leading-relaxed">
                 When you first enter a dark movie theater, it's hard to see details. After a few minutes, 
                 your rods adapt, allowing you to see general shapes and navigate the aisles, but you can't 
                 distinguish colors well.
@@ -127,7 +127,7 @@ export function VisionEye() {
 
             <div className="mt-4 bg-green-500/10 rounded-lg p-4 border-l-4 border-green-500">
               <p className="text-green-300 text-xs mb-1">Design Implication:</p>
-              <p className="text-green-100 text-sm">
+              <p className="text-green-100 text-lg leading-relaxed">
                 A flashing warning light or subtle animation in the corner of a screen is very effective 
                 at grabbing attention, even if not looking directly at it.
               </p>
@@ -141,23 +141,23 @@ export function VisionEye() {
                   <circle cx="12" cy="12" r="8" />
                 </svg>
               </div>
-              <h3 className="text-purple-400">Cones</h3>
+              <h3 className="text-2xl font-bold text-purple-400">Cones</h3>
             </div>
             
             <ul className="space-y-3 mb-6">
-              <li className="flex items-start gap-2 text-purple-100 text-sm">
+              <li className="flex items-start gap-2 text-purple-100 text-lg">
                 <span className="text-purple-400 mt-1">•</span>
                 <span>Less sensitive to light</span>
               </li>
-              <li className="flex items-start gap-2 text-purple-100 text-sm">
+              <li className="flex items-start gap-2 text-purple-100 text-lg">
                 <span className="text-purple-400 mt-1">•</span>
                 <span>Responsible for perceiving color and fine detail</span>
               </li>
-              <li className="flex items-start gap-2 text-purple-100 text-sm">
+              <li className="flex items-start gap-2 text-purple-100 text-lg">
                 <span className="text-purple-400 mt-1">•</span>
                 <span>Concentrated in the fovea (central vision)</span>
               </li>
-              <li className="flex items-start gap-2 text-purple-100 text-sm">
+              <li className="flex items-start gap-2 text-purple-100 text-lg">
                 <span className="text-purple-400 mt-1">•</span>
                 <span>Required for reading and detailed work</span>
               </li>
@@ -165,7 +165,7 @@ export function VisionEye() {
 
             <div className="bg-purple-950/50 rounded-lg p-4 border border-purple-500/20">
               <p className="text-purple-300 text-xs mb-2">Real-Life Example:</p>
-              <p className="text-purple-100 text-sm">
+              <p className="text-purple-100 text-lg leading-relaxed">
                 To read a small-print message on your phone, you must look directly at it. This focuses 
                 the light onto the cone-rich fovea, allowing you to resolve the fine details of the letters. 
                 If you try to read it using peripheral vision (where rods dominate), the text will be blurry.
@@ -174,7 +174,7 @@ export function VisionEye() {
 
             <div className="mt-4 bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-500">
               <p className="text-purple-300 text-xs mb-1">Design Implication:</p>
-              <p className="text-purple-100 text-sm">
+              <p className="text-purple-100 text-lg leading-relaxed">
                 All critical information that needs to be read or precisely manipulated (text, icons, buttons) 
                 must be placed in the user's central field of view where it can be focused on.
               </p>

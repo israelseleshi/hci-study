@@ -5,8 +5,8 @@ export function WhyHCI() {
     <section id="why-hci" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-gray-900 mb-4">Why is HCI Important?</h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Why is HCI Important?</h2>
+          <p className="text-gray-600 text-xl leading-relaxed max-w-3xl mx-auto">
             The primary importance of HCI lies in its power to improve the usability and 
             user experience of technology, which has a direct impact on our daily lives.
           </p>
@@ -20,16 +20,16 @@ export function WhyHCI() {
                 <XCircle className="w-8 h-8 text-red-600" />
               </div>
               <div>
-                <h3 className="text-gray-900 mb-2">To Prevent Poorly Designed Products</h3>
-                <p className="text-gray-600 text-sm">
+                <h3 className="text-2xl font-bold text-red-800 mb-3">Prevent Poorly Designed Products</h3>
+                <p className="text-gray-600 text-lg">
                   Many systems fail because they are designed without the user in mind, 
                   causing frustration, errors, and abandonment.
                 </p>
               </div>
             </div>
             <div className="bg-red-50 rounded-xl p-4 mt-4">
-              <p className="text-red-900 text-sm mb-2">Real-Life Example:</p>
-              <p className="text-gray-700 text-sm">
+              <p className="text-gray-700 text-lg leading-relaxed mb-4">Real-Life Example:</p>
+              <p className="text-gray-700 text-lg">
                 An online ticket booking website with a confusing layout, unclear buttons, 
                 and a checkout process that keeps timing out. Users will quickly get frustrated 
                 and leave to book their tickets on a competitor's more intuitive site, 
@@ -45,16 +45,16 @@ export function WhyHCI() {
                 <CheckCircle className="w-8 h-8 text-green-600" />
               </div>
               <div>
-                <h3 className="text-gray-900 mb-2">To Design Supportive Technology</h3>
-                <p className="text-gray-600 text-sm">
+                <h3 className="text-2xl font-bold text-green-800 mb-3">Create Better User Experiences</h3>
+                <p className="text-gray-600 text-lg leading-relaxed">
                   Good design can actively support people in their everyday work and personal lives, 
                   making tasks easier and more enjoyable.
                 </p>
               </div>
             </div>
             <div className="bg-green-50 rounded-xl p-4 mt-4">
-              <p className="text-green-900 text-sm mb-2">Real-Life Example:</p>
-              <p className="text-gray-700 text-sm">
+              <p className="text-green-900 text-lg mb-2">Real-Life Example:</p>
+              <p className="text-gray-700 text-lg leading-relaxed">
                 A fitness tracking app like Strava or Fitbit uses HCI principles to support users. 
                 It provides clear visual feedback on progress (charts, rings), offers social motivation 
                 (sharing activities with friends), and uses simple, one-tap actions to start and stop workouts.

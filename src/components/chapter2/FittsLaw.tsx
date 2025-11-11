@@ -6,8 +6,8 @@ export function FittsLaw() {
           <div className="inline-block bg-orange-500/20 border border-orange-500/30 rounded-full px-4 py-2 mb-4">
             <span className="text-orange-700 text-sm">Core HCI Principle</span>
           </div>
-          <h2 className="text-gray-900 mb-4">Fitts's Law: A Predictive Model of Movement</h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Fitts's Law: A Predictive Model of Movement</h2>
+          <p className="text-gray-600 text-xl leading-relaxed max-w-3xl mx-auto">
             A fundamental principle in HCI that predicts how quickly a user can move a pointer 
             to a target on the screen and click it.
           </p>
@@ -122,15 +122,15 @@ export function FittsLaw() {
 
         {/* Design Implications */}
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-center text-gray-900 mb-8">Practical Design Implications</h3>
+          <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">Practical Design Implications</h3>
           
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border-2 border-green-200">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">📏</span>
               </div>
-              <h4 className="text-green-900 text-center mb-3">Make Targets Large</h4>
-              <p className="text-gray-700 text-sm text-center">
+              <h4 className="text-xl font-bold text-green-900 text-center mb-3">Make Targets Large</h4>
+              <p className="text-gray-700 text-lg text-center">
                 Especially for frequently used buttons. Larger size (S↑) reduces movement time.
               </p>
             </div>
@@ -139,8 +139,8 @@ export function FittsLaw() {
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">📍</span>
               </div>
-              <h4 className="text-blue-900 text-center mb-3">Minimize Distance</h4>
-              <p className="text-gray-700 text-sm text-center">
+              <h4 className="text-xl font-bold text-blue-900 text-center mb-3">Minimize Distance</h4>
+              <p className="text-gray-700 text-lg text-center">
                 Group related functions together. Closer distance (D↓) reduces movement time.
               </p>
             </div>
@@ -149,8 +149,8 @@ export function FittsLaw() {
               <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🎯</span>
               </div>
-              <h4 className="text-purple-900 text-center mb-3">Use Edges & Corners</h4>
-              <p className="text-gray-700 text-sm text-center">
+              <h4 className="text-xl font-bold text-purple-900 text-center mb-3">Use Edges & Corners</h4>
+              <p className="text-gray-700 text-lg text-center">
                 Screen edges are "infinitely deep" targets—you can't overshoot them.
               </p>
             </div>

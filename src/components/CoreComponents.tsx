@@ -3,7 +3,7 @@ export function CoreComponents() {
     <section id="components" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             HCI is Built on Three Core Components
           </h2>
         </div>
@@ -25,8 +25,8 @@ export function CoreComponents() {
                 <line x1="50" y1="75" x2="65" y2="95" stroke="#0891b2" strokeWidth="6" strokeLinecap="round" />
               </svg>
             </div>
-            <h3 className="text-cyan-600 mb-3">The Human (The User)</h3>
-            <p className="text-gray-600 text-sm">
+            <h3 className="text-2xl font-bold text-cyan-600 mb-4">The Human (The User)</h3>
+            <p className="text-gray-600 text-lg leading-relaxed">
               Understanding the user's psychology, cognitive processes, physical abilities, 
               and how they work in social contexts. Considers their goals, needs, and limitations.
             </p>
@@ -49,8 +49,8 @@ export function CoreComponents() {
                 <rect x="25" y="74" width="50" height="3" rx="1.5" fill="#0891b2" />
               </svg>
             </div>
-            <h3 className="text-cyan-600 mb-3">The Computer (The Technology)</h3>
-            <p className="text-gray-600 text-sm">
+            <h3 className="text-2xl font-bold text-purple-600 mb-4">The Computer (The System)</h3>
+            <p className="text-gray-600 text-lg leading-relaxed">
               Any form of interactive technology, from desktop computers and smartphones 
               to complex systems like aircraft cockpits or medical equipment.
             </p>
@@ -94,8 +94,8 @@ export function CoreComponents() {
                 </defs>
               </svg>
             </div>
-            <h3 className="text-orange-500 mb-3">The Interaction</h3>
-            <p className="text-gray-600 text-sm">
+            <h3 className="text-2xl font-bold text-green-600 mb-4">The Interaction (The Interface)</h3>
+            <p className="text-gray-600 text-lg leading-relaxed">
               The communication or dialogue between the user and the computer. Focuses on the 
               interface—the point of contact—and the sequence of actions and feedback.
             </p>

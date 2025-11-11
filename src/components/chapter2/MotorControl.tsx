@@ -6,8 +6,8 @@ export function MotorControl() {
           <div className="inline-block bg-green-500/20 border border-green-500/30 rounded-full px-4 py-2 mb-4">
             <span className="text-green-300 text-sm">Output Channel</span>
           </div>
-          <h2 className="text-white mb-4">Movement and Motor Control</h2>
-          <p className="text-purple-200 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Movement and Motor Control</h2>
+          <p className="text-purple-200 text-xl leading-relaxed max-w-3xl mx-auto">
             After perceiving a stimulus (input), the brain processes it and generates a response, 
             which is carried out by the motor system (output).
           </p>
@@ -16,7 +16,7 @@ export function MotorControl() {
         <div className="max-w-5xl mx-auto">
           {/* Response Time Breakdown */}
           <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-2xl border border-green-500/20 mb-12">
-            <h3 className="text-green-400 mb-8 text-center">Response Time = Reaction Time + Movement Time</h3>
+            <h3 className="text-2xl font-bold text-green-400 mb-8 text-center">Response Time = Reaction Time + Movement Time</h3>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-slate-800/50 rounded-xl p-6 border border-cyan-400/30">
@@ -27,10 +27,10 @@ export function MotorControl() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                     </svg>
                   </div>
-                  <h4 className="text-cyan-300">Reaction Time</h4>
+                  <h4 className="text-xl font-bold text-cyan-300">Reaction Time</h4>
                 </div>
                 
-                <p className="text-gray-300 text-sm mb-4">
+                <p className="text-gray-300 text-lg mb-4">
                   The time it takes to perceive the stimulus and initiate a response
                 </p>
                 
@@ -49,10 +49,10 @@ export function MotorControl() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h4 className="text-green-300">Movement Time</h4>
+                  <h4 className="text-xl font-bold text-green-300">Movement Time</h4>
                 </div>
                 
-                <p className="text-gray-300 text-sm mb-4">
+                <p className="text-gray-300 text-lg mb-4">
                   The time it takes to physically execute the action
                 </p>
                 
@@ -118,7 +118,7 @@ export function MotorControl() {
 
           {/* Example Scenario */}
           <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 md:p-12 shadow-2xl">
-            <h3 className="text-white mb-6">Real-Life Example: Clicking a Button</h3>
+            <h3 className="text-2xl font-bold text-white mb-6">Real-Life Example: Clicking a Button</h3>
             
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
